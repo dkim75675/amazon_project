@@ -1,0 +1,142 @@
+*{
+    background-color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Sign in Form*/
+
+.form-container{
+  display: inline-flex;
+  flex-direction: row;
+  padding-left: 0.5%;
+  padding-right: 5%;
+  border: 0.5px solid lightgrey;
+  margin: 10% 30% 0 30%;
+  text-align: left;
+}
+
+h1{
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 14px;
+    font-family: sans-serif;
+    justify-content: left;
+    text-align: left;
+}
+
+.email{
+  margin-left: -10%;
+}
+
+.password{
+  margin-left: 2em;
+}
+
+.forgot{
+  align-items: right;
+  padding-left: 4em;
+  text-decoration: none;
+}
+
+input{
+  width: 92%;
+  margin-left: 1em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: lightgray;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.button-1{
+  display: inline-flex;
+  background-color: rgb(248, 186, 73);
+  border-width: .001em;
+  border-color: solid rgb(226, 224, 224);
+  font-family: sans-serif;
+  justify-content: center;
+  width: 92%;
+  margin-left: 1em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+li{
+  text-align: left;
+}
+
+.help{
+  text-align: left;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  color: rgba(0, 0, 255, 0.707);
+}
+
+.help a{
+  text-decoration: none;
+  font-size: smaller;
+  font-weight: normal;
+}
+
+/* New to amazon */
+
+h2{
+  font-size: small;
+  color: lightgray;
+}
+
+.left{
+  background-color: lightgrey;
+  width: 40%;
+  height: 2px;
+}
+
+.right{
+  background-color: lightgrey;
+  width: 40%;
+  height: 2px;
+}
+
+
+.message{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button 2 */
+
+.button-2{
+  background-color: lightgray;
+  width: 35%;
+}
+
+/* Footer */
+
+.extra-info{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0 30% 0% 30%;
+}
+
+.extra-info a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  text-size-adjust: small;
+  justify-content: center;
+  font-size: small;
+}
+
+/* copyright */
+
+.copyright{
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
